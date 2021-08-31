@@ -36,14 +36,11 @@ function primesTo100 () {
         for (let k = 2; k <= j - 1; k++) {
             if (j % k == 0) {
                 isPrime = false
-
             }
         }
         if (isPrime) {
             console.log(j);
-
         }
-
     }
 }
 
